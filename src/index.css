@@ -1,0 +1,176 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Mulish:wght@200&display=swap');
+*{
+  font-family: 'Cuprum', sans-serif;
+  font-family: 'Taviraj', serif;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* body of the whole react */
+ body{
+  background: url('../src/Images/bg.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+.nav_pic{
+  width:100px;
+  height:51px;
+  margin-left:-26px;
+}
+.nav-border{
+  border-top:10px solid #dedefd;
+  border-bottom:2px solid #dedefd;
+  background-color:#dedefd;
+}
+/* active class for navbar */
+.active{
+  color: blue !important;
+  font-size:20px !important;
+  margin: 0px;
+}
+/* sign box class for white border shadow */
+.sign-box{
+  border:2px solid white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius:10px;
+}
+/* for Anmation of about page boxs */
+.about-box{
+  border:2px solid white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius:10px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1.5s ease, transform 1.5s ease;
+}
+/* for Anmation of about page boxs */
+.about-box.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* About page join us page button */
+.buton{
+  width: 90px;
+    height: 40px;
+    padding: 2px;
+    font-size:17px !important;
+}
+/* About page join us page button hover effect*/
+.buton:hover{
+  font-size:17px;
+  color:rgb(242, 235, 235) !important;
+  background-color:orange !important;
+}
+.mt{
+  margin-top:100px !important;
+}
+.text-left{
+  text-align: left !important;
+}
+.text-right{
+  text-align: right !important;
+}
+
+
+.google-box{
+  border:2px solid white;
+  border-radius:8px;
+  height:36px;
+  color:white;
+  background:orange;
+  cursor: pointer;
+}
+
+.google-box:hover{
+  color:black;
+  background-color:white;
+}
+.google-img{
+  width: 40px;
+  height: 29px;
+  margin-left: 7px;
+}
+  
+/* Or Line  */
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: black;
+  margin: 0 0px;
+}
+
+.text {
+  display: inline-block;
+  margin-top:0px;
+}
+
+
+/* About page pic */
+.ab_pic{
+  width:100px;
+  height:60px;
+  margin-left:-10px;
+}
+
+/* Log-out page pic */
+.lo_pic{
+  width: 200px;
+    height: 114px;
+    margin-left: -10px;
+}
+
+/* card pic  */
+.card_img{
+  height: 200px !important;
+}
+/* detail page img */
+.d-img{
+  width:89% !important;
+  height:250px !important;
+}
+/* For spiner  */
+.loading-spinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+}
+
+/* orders box  */
+.order-box{
+  border:2px-solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  /* height:50px; */
+
+}
+.order-box button{
+  width: 90px;
+    height: 30px;
+    padding: 0px;
+}
+
+/* ordersdetail box  */
+.detail-box{
+  border:2px-solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  height:50px;
+}
+/* accordion item */
+.ai{
+  width: 100% !important;
+}
+/* accordion body  */
+.ab{
+  position:relative !important;
+  z-index: 2 !important;
+  background-color:#dedefd;
+  width:100%
+}
+
